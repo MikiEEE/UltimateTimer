@@ -1,0 +1,153 @@
+
+.contain {
+    margin-top: 10vh;
+    margin-left:50%;
+    transform: translateX(-50%);
+ }
+
+
+/*Begin CSS for the Time Input Row*/
+
+.time-input-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5vw;
+}
+
+
+.time-input {
+    width:9vw;
+    height: 6vh;
+    border: 1pt solid black;
+    color: gray;
+}
+
+.start-button {
+    color: white;
+    background-color: #62bd97;
+    border:none;
+    width:7vw;
+    height: 6vh;
+    margin-left:1vw;
+}
+
+.label {
+    padding-right: 1vw;
+    font-size:2.5vh;
+}
+
+/*End CSS for the Time Input Row*/
+
+
+/*Begin CSS for the Time Display*/
+.time-display-row {
+    display: flex;
+}
+
+.time-display {
+    text-align: right;
+    margin-left: 10vw;
+    height:30vh;
+    width: 25vw;
+}
+.middle {
+    float: left;
+}
+
+.aside {
+    float: left;
+    vertical-align: middle;
+    display: table-cell;
+    min-height: 10em;
+}
+
+.above {
+    clear: both;
+    height:5vh;
+}
+
+.time{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size:20vh;
+    text-align: center;
+    z-index: -1;
+}
+
+.button-round {
+    background-color: white;
+    color: black;
+    height: 7.5vh;
+    width: 4vw;
+    padding: 18px;
+    font-weight:bold;
+    font-size: 2.5vh;
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    position: relative;
+    margin-left: 4vw;
+    margin-top: 8.5vh;
+    line-height: 0em;
+}
+
+.warning-label {
+    margin-top: 4vh;
+    margin-left: auto;
+    margin-right: auto; 
+    font-style: italic;
+    font-size: 2.5vh;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+
+.warning{ 
+    color: red;
+}
+
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+/*End CSS for the Time Display*/
+
+.footer {
+    clear:both;
+}
+
+.button-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.in-row {
+    margin-right: 1vw;
+}
+
+.speed-button {
+    height:6.75vh;
+    width:6.5vw;
+    border: 3px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 0em;
+}
+
+.selected {
+    background-color: grey;
+    color:white;
+}
